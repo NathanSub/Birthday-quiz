@@ -35,12 +35,14 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
+monthnow = month_name[todaymonth]
 
 name = input("What is your name?")
 month = input("Which month were you born in?")
 year = input("What year were you born in?")
 day = input("What day were you born on?")
 
-if day == "31" and month == "october" or "October":
+if day == "31" and month == "October":
     print("You were born on Halloween!")
-if day == "
+if month == monthnow and day == todaydate:
+    print("Happy birthday!")
