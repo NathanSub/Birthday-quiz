@@ -53,13 +53,13 @@ elif month == m and int(day) == d:
 
 if month == "December" or month == "January" or month == "February":
     if int(year) <= 1980:
-        decade == "Stone Age"
+        decade = "Stone Age"
     if int(year) >= 1980 and int(year) <= 1990:
-        decade == "eighties"
-    print("{0},you are a winter baby of the {1}".format(n,decade))
+        decade = "eighties"
+    print("{0},you are a winter baby of the {1}.".format(n,decade))
 elif month == "March" or month == "April" or month == "May":
-    print("{0},you are a spring baby".format(n))
+    print("{0},you are a spring baby of the {1}.".format(n,decade))
 elif month == "June" or month == "July" or month == "August":
-    print("{0},you are a summer baby".format(n))
+    print("{0},you are a summer baby of the {1}.".format(n,decade))
 elif month == "September" or month == "October" or month == "November":
     print("{0},you are a fall baby".format(n))
