@@ -62,4 +62,4 @@ elif month == "March" or month == "April" or month == "May":
 elif month == "June" or month == "July" or month == "August":
     print("{0},you are a summer baby of the {1}.".format(n,decade))
 elif month == "September" or month == "October" or month == "November":
-    print("{0},you are a fall baby".format(n))
+    print("{0},you are a fall baby of the {1}.".format(n,decade))
