@@ -44,17 +44,19 @@ day = input("What day were you born on?")
 
 d=todaydate
 m=str(monthnow)
-n=str(name)+","
+n=str(name)
 
 if day == "31" and month == "October":
     print("You were born on Halloween!")
 elif month == m and int(day) == d:
     print("Happy birthday!")
-elif month == "December" or "January" or "February":
-    print((n),"you are a winter baby")
-elif month == "March" or "April" or "May":
-    print((n),"you are a spring baby")
-elif month == "June" or "July" or "August":
-    print((n),"you are a summer baby")
-elif month == "September" or "October" or "November":
-    print((n),"you are a fall baby")
+
+if month == "December" or month == "January" or month == "February":
+    if int(year) <= 1980
+    print("{0},you are a winter baby".format(n))
+elif month == "March" or month == "April" or month == "May":
+    print("{0},you are a spring baby".format(n))
+elif month == "June" or month == "July" or month == "August":
+    print("{0},you are a summer baby".format(n))
+elif month == "September" or month == "October" or month == "November":
+    print("{0},you are a fall baby".format(n))
