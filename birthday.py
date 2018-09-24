@@ -52,10 +52,14 @@ elif month == m and int(day) == d:
     print("Happy birthday!")
 
 if month == "December" or month == "January" or month == "February":
-    if int(year) <= 1980:
+    if int(year) < 1980:
         decade = "Stone Age"
-    if int(year) >= 1980 and int(year) <= 1990:
+    if int(year) >= 1980 and int(year) < 1990:
         decade = "eighties"
+    if int(year) >= 1990 and int(year) < 2000:
+        decade = "nineties"
+    if int(year) >= 2000:
+        decade = "two thousands"
     print("{0},you are a winter baby of the {1}.".format(n,decade))
 elif month == "March" or month == "April" or month == "May":
     print("{0},you are a spring baby of the {1}.".format(n,decade))
