@@ -60,7 +60,7 @@ if month == "December" or month == "January" or month == "February":
         decade = "nineties"
     if int(year) >= 2000:
         decade = "two thousands"
-    print("{0},you are a winter baby of the {1}.".format(n,decade))
+    print("{0}, you are a winter baby of the {1}.".format(n,decade))
 elif month == "March" or month == "April" or month == "May":
     if int(year) < 1980:
         decade = "Stone Age"
@@ -70,7 +70,7 @@ elif month == "March" or month == "April" or month == "May":
         decade = "nineties"
     if int(year) >= 2000:
         decade = "two thousands"
-    print("{0},you are a spring baby of the {1}.".format(n,decade))
+    print("{0}, you are a spring baby of the {1}.".format(n,decade))
 elif month == "June" or month == "July" or month == "August":
     if int(year) < 1980:
         decade = "Stone Age"
@@ -80,7 +80,7 @@ elif month == "June" or month == "July" or month == "August":
         decade = "nineties"
     if int(year) >= 2000:
         decade = "two thousands"
-    print("{0},you are a summer baby of the {1}.".format(n,decade))
+    print("{0}, you are a summer baby of the {1}.".format(n,decade))
 elif month == "September" or month == "October" or month == "November":
     if int(year) < 1980:
         decade = "Stone Age"
@@ -90,4 +90,4 @@ elif month == "September" or month == "October" or month == "November":
         decade = "nineties"
     if int(year) >= 2000:
         decade = "two thousands"
-    print("{0},you are a fall baby of the {1}.".format(n,decade))
+    print("{0}, you are a fall baby of the {1}.".format(n,decade))
