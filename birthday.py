@@ -50,8 +50,7 @@ if day == "31" and month == "October":
     print("You were born on Halloween!")
 elif month == m and int(day) == d:
     print("Happy birthday!")
-
-if month == "December" or month == "January" or month == "February":
+elif month == "December" or month == "January" or month == "February":
     if int(year) < 1980:
         decade = "Stone Age"
     if int(year) >= 1980 and int(year) < 1990:
